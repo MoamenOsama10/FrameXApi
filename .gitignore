@@ -1,0 +1,72 @@
+# =========================
+# FrameXApi - .NET gitignore
+# =========================
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Visual Studio 2022
+*.vsix
+
+# MSTest
+[Tt]est[Rr]esult*
+[Bb]uild[Ll]og.*
+
+# .NET Core / SDK
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Core
+**/wwwroot/uploads/
+**/publish/
+**/PublishOutput/
+
+# NuGet packages
+*.nupkg
+*.nupkg.symbols
+*.nupkg.cache
+packages/
+
+# Binaries / compiled
+*.dll
+*.exe
+*.pdb
+*.runtimeconfig.json
+*.deps.json
+*.GlobalUsings.g.cs
+
+# ziptest folder
+ziptest/
+
+# Local app settings (may contain secrets)
+appsettings.Development.json
+appsettings.*.local.json
+
+# Environment
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# End of file
